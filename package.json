@@ -12,12 +12,8 @@
     "fix": "eslint --fix --ext .js,.vue src"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "element-ui": "^2.2.1",
-    "qs": "^6.5.1",
-    "vue": "^2.5.15",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vue": "^2.5.16",
+    "vue-property-decorator": "^6.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^8.1.0",
@@ -60,8 +56,7 @@
     "semver": "^5.3.0",
     "shelljs": "^0.8.1",
     "url-loader": "^1.0.1",
-    "vue-loader": "^14.2.1",
-    "vue-property-decorator": "^6.0.0",
+    "vue-loader": "^14.2.1",    
     "vue-style-loader": "^4.1.0",
     "vue-template-compiler": "^2.5.15",
     "webpack": "^4.3.0",
