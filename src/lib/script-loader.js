@@ -45,10 +45,9 @@ export default {
       if (window['require']) {
         resolveModules(modules)
       } else {
-        let ops = () => {
+        queue.push(() => {
           resolveModules(modules)
-        }
-        queue.push(ops)
+        })
         loadScript()
       }
     })
