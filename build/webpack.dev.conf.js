@@ -30,7 +30,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
   devtool: config.dev.devtool,
   devServer: {
     hot: true,
-    contentBase: false,
+    contentBase: ["d:/"],
     publicPath: config.dev.assetsPublicPath,
     historyApiFallback: {
       rewrites: [{

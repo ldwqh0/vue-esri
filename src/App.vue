@@ -12,10 +12,10 @@
   export default class App extends Vue {
     name= 'App'
     mounted () {
-      Vue.esri.loadModules().then(r => {
-        console.dir(r)
+      Vue.esri.loadModules(['esri/map', 'esri/dijit/Basemap', 'good/c', 'test']).then(([Map, BaseMap, Good, Test]) => {
+        console.dir(Map)
+        console.dir(BaseMap)
       })
-      console.log('The App component mounted')
     }
   }
 </script>

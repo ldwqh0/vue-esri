@@ -4,7 +4,18 @@ import Vue from 'vue'
 import App from './App'
 import VMapPlugin from './lib'
 
-Vue.use(VMapPlugin)
+Vue.use(VMapPlugin, {
+  url: '/arcgisAPI/3.22/init.js',
+  dojoConfig: {
+    paths: {
+      test: '/a/b/c'
+    },
+    packages: [{
+      name: 'good',
+      location: '/a/b'
+    }]
+  }
+})
 
 // Vue.config.productionTip = false
 
