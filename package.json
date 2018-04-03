@@ -2,8 +2,7 @@
   "name": "vue-esri",
   "version": "0.0.1",
   "description": "A Vue.js project",
-  "author": "ldwqh0 <ldwqh0@outlook.com>",
-  "private": true,
+  "author": "ldwqh0 <ldwqh0@outlook.com>",  
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
