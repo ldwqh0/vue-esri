@@ -2,7 +2,6 @@
   <div ref="map" class="map" style="height:500px;" />
 </template>
 <script>
-
   export default {
     props: {
       option: {
