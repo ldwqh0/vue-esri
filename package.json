@@ -1,17 +1,18 @@
 {
   "name": "vue-esri",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Vue.js project",
-  "author": "ldwqh0 <ldwqh0@outlook.com>",  
+  "author": "ldwqh0 <ldwqh0@outlook.com>",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
     "fix": "eslint --fix --ext .js,.vue src",
-    "prepublish": "rimraf dist && babel src/lib -d dist/lib && cp -r src/components dist/components"
+    "prepublish": "rimraf dist && babel src/lib -d dist/lib && cp -r src/components dist/components && cp -r types dist/types"
   },
   "main": "dist/lib",
+  "typings": "dist/types",
   "dependencies": {
     "vue": "^2.5.16",
     "vue-property-decorator": "^6.0.0"
