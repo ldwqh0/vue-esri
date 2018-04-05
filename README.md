@@ -20,3 +20,7 @@ Vue.use(VMapPlugin, {
 ```html
 
 ```
+
+## 版本说明
+* 0.0.2  
+  增加ts定义
