@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 declare module 'vue/types/vue' {
     interface Vue {
-        $myProperty: string
+        $esri:  loader
     }
 }
 declare interface loader {
@@ -10,5 +10,4 @@ declare interface loader {
 }
 declare const VMap: PluginObject
 export declare const ScriptLoader: loader
-export { default as ScriptLoader } from './script-loader'
 export default VMap
