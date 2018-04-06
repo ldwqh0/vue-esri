@@ -5,16 +5,9 @@ import App from './App'
 import VMapPlugin from './lib'
 
 Vue.use(VMapPlugin, {
-  url: '/arcgisAPI/3.22/init.js',
-  dojoConfig: {
-    paths: {
-      test: '/a/b/c'
-    },
-    packages: [{
-      name: 'good',
-      location: '/a/b'
-    }]
-  }
+  url: '/arcgisAPI/3.22/init.js', // 指定js文件地址
+  css: '/arcgisAPI/3.22/esri/css/esri.css', // 指定css文件地址
+  dojoConfig: { }
 })
 
 // Vue.config.productionTip = false

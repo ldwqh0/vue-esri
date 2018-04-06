@@ -5,9 +5,3 @@ declare module 'vue/types/vue' {
         $esri:  loader
     }
 }
-declare interface loader {
-    loadModules(modules: string[]): Promise<any[]>;
-}
-declare const VMap: PluginObject
-export declare const ScriptLoader: loader
-export default VMap
