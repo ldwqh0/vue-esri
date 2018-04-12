@@ -22,6 +22,8 @@ Vue.use(VMapPlugin, {
 ```
 
 ## 版本说明
+* 0.0.4  
+  去掉load-css属性，改用config属性加载css
 * 0.0.3
   手抖了一下，发错了一个版本
 * 0.0.2  

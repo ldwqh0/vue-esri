@@ -16,14 +16,10 @@
             basemap: 'topo'
           }
         }
-      },
-      loadCss: { // 是否加载css文件
-        type: Boolean,
-        default: false
       }
     },
     created () {
-      if (this.loadCss) {
+      if (config.css) {
         CssLoader.loadCss(config.css)
       }
     },
