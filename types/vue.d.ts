@@ -3,7 +3,7 @@ import { EsriLoader } from './esri-loader'
 
 declare module 'vue/types/vue' {
     interface Vue {
-        $esriLoader: typeof EsriLoader
+        $esriLoader: EsriLoader
     }
 }
 

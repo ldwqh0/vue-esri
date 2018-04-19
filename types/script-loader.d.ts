@@ -1,5 +1,5 @@
-declare interface _loader {
+declare interface ScriptLoader {
     loadScript(url: string): Promise<any>
 }
-declare const ScriptLoader: _loader
+declare const ScriptLoader: ScriptLoader
 export default ScriptLoader
