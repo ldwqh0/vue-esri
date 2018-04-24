@@ -12,7 +12,7 @@
     "prepublish": "rimraf dist && babel src/lib -d dist/lib && cp -r src/components dist/components"
   },
   "main": "dist/lib",
-  "types": "types/index.d.ts",
+  "typings": "types/index.d.ts",
   "files": [
     "dist",
     "types"

@@ -1,5 +1,4 @@
 import './vue'
-import Vue from 'vue'
 import ScriptLoader from './script-loader'
 import EsriLoader from './esri-loader'
 import CssLoader from './css-loader'
