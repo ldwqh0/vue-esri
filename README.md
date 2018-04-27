@@ -3,6 +3,9 @@
 arcgis Vue 插件
 
 ## 使用方法
+组件仅支持Vue单文件模式的引用。  
+请使用vue-cli搭建项目
+通过如下命令安装依赖
 ``` bash
 npm -S install vue-esri
 ```

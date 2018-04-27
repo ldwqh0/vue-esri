@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { EsriLoader } from './esri-loader'
+import { EsriLoader } from './loders'
 
 declare module 'vue/types/vue' {
     interface Vue {
@@ -8,8 +8,6 @@ declare module 'vue/types/vue' {
 }
 
 declare module 'vue/types/vue' {
-    // 可以使用 `VueConstructor` 接口
-    // 来声明全局属性
     interface VueConstructor {
         EsriLoader: EsriLoader
     }
