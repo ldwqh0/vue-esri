@@ -1,9 +1,10 @@
 import './vue'
-import Config from './config'
-import { PluginObject,PluginFunction } from 'vue'
-import ScriptLoader from './script-loader'
-import EsriLoader from './esri-loader'
-import CssLoader from './css-loader'
-export { ScriptLoader, EsriLoader, CssLoader }
+import { PluginObject } from 'vue'
+declare interface Config {
+    css?: string | boolean
+    url?: string
+    dojoConfig?: any
+}
+export * from './loders'
 declare const Plugin: PluginObject<Config>
 export default Plugin
