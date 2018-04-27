@@ -1,8 +1,8 @@
 export declare interface Config {
     css?: string | boolean
     url?: string
-    dojbConfig?: any
+    dojoConfig?: any
 }
 
-declare const Config: Config
+// declare const Config: Config
 export default Config
