@@ -1,9 +1,13 @@
 <template>
-  <div ref="map" class="map" style="height:500px;" />
+  <div class="vue-map-container" style="height: 500px;">
+    <div ref="map" class="map" style="height:100%;"/>
+    <slot class="suspending-layer"/>
+  </div>
 </template>
 <script>
   import { EsriLoader, CssLoader } from '../lib'
   import config from '../lib/config'
+
   export default {
     name: 'VMap',
     props: {

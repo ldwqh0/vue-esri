@@ -25,6 +25,8 @@ Vue.use(VMapPlugin, {
 ```
 
 ## 版本说明
+* 0.0.5
+  增加了一个slot,可以直接向地图容器内添加内容了
 * 0.0.4  
   去掉load-css属性，改用config属性加载css
 * 0.0.3
